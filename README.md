@@ -1,6 +1,6 @@
 # SerenityOS User Map
 
-WIP.
+A map showing where in the world the SerenityOS developers and users are :^)
 
 **[Visit the map!](https://usermap.serenityos.org)**
 
