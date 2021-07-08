@@ -58,6 +58,18 @@
     }
   },
   {
+    "nick": "breakgimme",
+    "coordinates": [
+      52.54682,
+      19.70638
+    ],
+    "links": {
+      "Website": "https://breakgimme.cf",
+      "Twitter": "https://twitter.com/adamos9898",
+      "Github": "https://github.com/breakgimme"
+    }
+  },
+  {
     "nick": "bugaevc",
     "coordinates": [
       55.752,
