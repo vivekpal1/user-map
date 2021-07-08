@@ -1,0 +1,72 @@
+[
+  {
+    "nick": "GMTA",
+    "coordinates": [
+      51.5163,
+      5.3634
+    ],
+    "links": {
+      "GitHub": "https://github.com/GMTA",
+      "LinkedIn": "https://www.linkedin.com/in/jelleraaijmakers",
+      "Twitter": "https://twitter.com/gmta_nl",
+      "Website": "https://jelleraaijmakers.nl"
+    }
+  },
+  {
+    "nick": "MaxWipfli",
+    "coordinates": [
+      46.8818,
+      8.6439
+    ],
+    "links": {
+      "Website": "https://maxwipfli.ch",
+      "Twitter": "https:/twitter.com/MaxWipfli",
+      "GitHub": "https://github.com/MaxWipfli"
+    }
+  },
+  {
+    "nick": "CxByte",
+    "coordinates": [
+      38.077,
+      46.292
+    ],
+    "links": {
+      "Twitter": "https://twitter.com/the_semicolon_",
+      "GitHub": "https://github.com/alimpfard"
+    }
+  },
+  {
+    "nick": "awesomekling",
+    "coordinates": [
+      57.0838,
+      12.2507
+    ],
+    "links": {
+      "Twitter": "https://twitter.com/awesomekling",
+      "GitHub": "https://github.com/awesomekling"
+    }
+  },
+  {
+    "nick": "bugaevc",
+    "coordinates": [
+      55.752,
+      37.6175
+    ],
+    "links": {
+      "Mastodon": "https://mastodon.technology/@bugaevc",
+      "GitHub": "https://github.com/bugaevc"
+    }
+  },
+  {
+    "nick": "linusg",
+    "coordinates": [
+      51.5074,
+      0.1278
+    ],
+    "links": {
+      "Website": "https://linus.dev",
+      "Twitter": "https://twitter.com/linusgroh",
+      "GitHub": "https://github.com/linusg"
+    }
+  }
+]
