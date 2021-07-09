@@ -288,5 +288,16 @@
     "links": {
       "GitHub": "https://github.com/sunverwerth"
     }
+  },
+  {
+    "nick": "nooga",
+    "coordinates": [
+      52.400,
+      16.831
+    ],
+    "links": {
+      "GitHub": "https://github.com/nooga",
+      "Twitter": "https://twitter.com/MGasperowicz"
+    }
   }
 ]
