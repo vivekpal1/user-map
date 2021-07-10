@@ -204,7 +204,8 @@
       "Website": "https://vkoskiv.com",
       "GitHub": "https://github.com/vkoskiv",
       "Twitter": "https://twitter.com/vkoskiv"
-    }
+    },
+    "contributor": true
   },
   {
     "nick": "itamar8910",
