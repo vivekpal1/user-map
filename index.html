@@ -1,91 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SerenityOS User Map</title>
+    <link rel="shortcut icon" href="https://serenityos.org/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-<head>
-  <meta charset="utf-8">
-  <title>SerenityOS User Map</title>
-  <link rel="shortcut icon" href="https://serenityos.org/favicon.ico">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+      body {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
-    body {
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
+      #map {
+        width: 100%;
+        height: 100%;
+      }
 
-    #map {
-      width: 100%;
-      height: 100%;
-    }
+      .leaflet-popup-content {
+        text-align: center;
+      }
 
-    .leaflet-popup-content {
-      text-align: center;
-    }
+      .leaflet-popup-content h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0.5rem;
+      }
 
-    .leaflet-popup-content h1 {
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin: 0.5rem;
-    }
+      #contribute {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        z-index: 1000;
+      }
+    </style>
+  </head>
 
-    #contribute {
-      position: absolute;
-      top: 0;
-      right: 0;
-      margin: 0;
-      z-index: 1000;
-    }
-
-  </style>
-</head>
-
-<body>
-  <div id="map"
-    class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom">
-    <div class="leaflet-control-container">
-      <div class="leaflet-top leaflet-right">
-        <div class="leaflet-control-attribution leaflet-control">
-          <span id="user-count">0</span> users are already registered | <a
-            href="https://github.com/SerenityOS/user-map" title="Contribute to this map">Contribute</a>
+  <body>
+    <div
+      id="map"
+      class="
+        leaflet-container
+        leaflet-touch
+        leaflet-fade-anim
+        leaflet-grab
+        leaflet-touch-drag
+        leaflet-touch-zoom
+      "
+    >
+      <div class="leaflet-control-container">
+        <div class="leaflet-top leaflet-right">
+          <div class="leaflet-control-attribution leaflet-control">
+            <span id="user-count">0</span> users are already registered |
+            <a
+              href="https://github.com/SerenityOS/user-map"
+              title="Contribute to this map"
+              >Contribute</a
+            >
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <script>
-    fetch("people.json")
-      .then(response => response.json())
-      .then(data => {
-        var map = L.map('map').setView([0.0, 0.0], 2);
+    <script>
+      fetch("people.json")
+        .then((response) => response.json())
+        .then((data) => {
+          var map = L.map("map").setView([0.0, 0.0], 2);
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
+          L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution:
+              '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          }).addTo(map);
 
-        for (const user of data) {
-          var html = '<h1>' + user.nick + '</h1>';
-          if (user.links) {
-            var first = true;
-            for (const title in user.links) {
-              if (!first) {
-                html += '<br>';
+          for (const user of data) {
+            var html = "<h1>" + user.nick + "</h1>";
+            if (user.links) {
+              var first = true;
+              for (const title in user.links) {
+                if (!first) {
+                  html += "<br>";
+                }
+                html +=
+                  '<a target="_blank" href="' +
+                  user.links[title] +
+                  '">' +
+                  title +
+                  "</a>";
+                first = false;
               }
-              html += '<a target="_blank" href="' + user.links[title] + '">' + title + '</a>';
-              first = false;
             }
+            L.marker(user.coordinates).addTo(map).bindPopup(html);
           }
-          L.marker(user.coordinates).addTo(map).bindPopup(html);
-        }
 
-        document.getElementById('user-count').innerText = String(data.length);
-      });
-  </script>
-</body>
-
+          document.getElementById("user-count").innerText = String(data.length);
+        });
+    </script>
+  </body>
 </html>

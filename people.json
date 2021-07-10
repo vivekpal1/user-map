@@ -1,10 +1,7 @@
 [
   {
     "nick": "kennethmyhra",
-    "coordinates": [
-      59.91102,
-      10.75313
-    ],
+    "coordinates": [59.91102, 10.75313],
     "links": {
       "Twitter": "https://twitter.com/kennethmyhra",
       "GitHub": "https://github.com/kennethmyhra",
@@ -14,10 +11,7 @@
   },
   {
     "nick": "Gunnar Beutner - shroud",
-    "coordinates": [
-      49.4360,
-      10.9929
-    ],
+    "coordinates": [49.436, 10.9929],
     "links": {
       "GitHub": "https://github.com/gunnarbeutner",
       "LinkedIn": "https://www.linkedin.com/in/gunnar-beutner-693415167/",
@@ -27,10 +21,7 @@
   },
   {
     "nick": "GMTA",
-    "coordinates": [
-      51.5163,
-      5.3634
-    ],
+    "coordinates": [51.5163, 5.3634],
     "links": {
       "GitHub": "https://github.com/GMTA",
       "LinkedIn": "https://www.linkedin.com/in/jelleraaijmakers",
@@ -40,10 +31,7 @@
   },
   {
     "nick": "MaxWipfli",
-    "coordinates": [
-      46.8818,
-      8.6439
-    ],
+    "coordinates": [46.8818, 8.6439],
     "links": {
       "Website": "https://maxwipfli.ch",
       "Twitter": "https://twitter.com/MaxWipfli",
@@ -52,10 +40,7 @@
   },
   {
     "nick": "Richard Gráčik - Morc",
-    "coordinates": [
-      48.4614,
-      17.9846
-    ],
+    "coordinates": [48.4614, 17.9846],
     "links": {
       "Twitter": "https://twitter.com/morciatka",
       "GitHub": "https://github.com/TheMorc"
@@ -63,10 +48,7 @@
   },
   {
     "nick": "CxByte",
-    "coordinates": [
-      38.077,
-      46.292
-    ],
+    "coordinates": [38.077, 46.292],
     "links": {
       "Twitter": "https://twitter.com/the_semicolon_",
       "GitHub": "https://github.com/alimpfard"
@@ -74,10 +56,7 @@
   },
   {
     "nick": "awesomekling",
-    "coordinates": [
-      57.0838,
-      12.2507
-    ],
+    "coordinates": [57.0838, 12.2507],
     "links": {
       "Twitter": "https://twitter.com/awesomekling",
       "GitHub": "https://github.com/awesomekling"
@@ -85,10 +64,7 @@
   },
   {
     "nick": "breakgimme",
-    "coordinates": [
-      52.54682,
-      19.70638
-    ],
+    "coordinates": [52.54682, 19.70638],
     "links": {
       "Website": "https://breakgimme.cf",
       "Twitter": "https://twitter.com/adamos9898",
@@ -97,10 +73,7 @@
   },
   {
     "nick": "bugaevc",
-    "coordinates": [
-      55.752,
-      37.6175
-    ],
+    "coordinates": [55.752, 37.6175],
     "links": {
       "Mastodon": "https://mastodon.technology/@bugaevc",
       "GitHub": "https://github.com/bugaevc"
@@ -108,10 +81,7 @@
   },
   {
     "nick": "linusg",
-    "coordinates": [
-      51.51,
-      -0.12
-    ],
+    "coordinates": [51.51, -0.12],
     "links": {
       "Website": "https://linus.dev",
       "Twitter": "https://twitter.com/linusgroh",
@@ -120,10 +90,7 @@
   },
   {
     "nick": "networkException",
-    "coordinates": [
-      50.10811,
-      8.68222
-    ],
+    "coordinates": [50.10811, 8.68222],
     "links": {
       "Website": "https://nwex.de",
       "Twitter": "https://twitter.com/netwrkException",
@@ -132,20 +99,14 @@
   },
   {
     "nick": "thakis",
-    "coordinates": [
-      40.4987,
-      -74.0643
-    ],
+    "coordinates": [40.4987, -74.0643],
     "links": {
       "GitHub": "https://github.com/nico"
     }
   },
   {
     "nick": "trflynn89",
-    "coordinates": [
-      42.4523774,
-      -71.096081
-    ],
+    "coordinates": [42.4523774, -71.096081],
     "links": {
       "Website": "https://trflynn89.github.io/",
       "GitHub": "https://github.com/trflynn89"
@@ -153,10 +114,7 @@
   },
   {
     "nick": "zaklaus",
-    "coordinates": [
-      48.5660393,
-      19.2284823
-    ],
+    "coordinates": [48.5660393, 19.2284823],
     "links": {
       "Website": "https://madaraszd.net/",
       "GitHub": "https://github.com/zaklaus",
@@ -165,20 +123,14 @@
   },
   {
     "nick": "IdanHo",
-    "coordinates": [
-      32.79,
-      34.98
-    ],
+    "coordinates": [32.79, 34.98],
     "links": {
       "GitHub": "https://github.com/IdanHo"
     }
   },
   {
     "nick": "nicolasdanelon",
-    "coordinates": [
-      -34.61083,
-      -58.4157
-    ],
+    "coordinates": [-34.61083, -58.4157],
     "links": {
       "Website": "https://nicolasmd.com.ar",
       "GitHub": "https://github.com/nicolasdanelon"
@@ -186,20 +138,14 @@
   },
   {
     "nick": "boricj",
-    "coordinates": [
-      45.46,
-      6.08
-    ],
+    "coordinates": [45.46, 6.08],
     "links": {
       "GitHub": "https://github.com/boricj"
     }
   },
   {
     "nick": "bgianf",
-    "coordinates": [
-      47.6062095,
-      -122.3320708
-    ],
+    "coordinates": [47.6062095, -122.3320708],
     "links": {
       "Website": "https://bjg.io/",
       "GitHub": "https://github.com/bgianfo",
@@ -208,50 +154,35 @@
   },
   {
     "nick": "petelliott",
-    "coordinates": [
-      53.631611,
-      -113.323975
-    ],
+    "coordinates": [53.631611, -113.323975],
     "links": {
       "Github": "https://github.com/petelliott"
     }
   },
   {
     "nick": "r-paiva",
-    "coordinates": [
-      41.2420,
-      -8.6650
-    ],
+    "coordinates": [41.242, -8.665],
     "links": {
       "Github": "https://github.com/r-paiva"
     }
   },
   {
     "nick": "timmot",
-    "coordinates": [
-      -32.926,
-      151.763
-    ],
+    "coordinates": [-32.926, 151.763],
     "links": {
       "Github": "https://github.com/timmot"
     }
   },
   {
     "nick": "supercomputer7",
-    "coordinates": [
-      31.6445,
-      34.8879
-    ],
+    "coordinates": [31.6445, 34.8879],
     "links": {
       "GitHub": "https://github.com/supercomputer7"
     }
   },
   {
     "nick": "vkoskiv",
-    "coordinates": [
-      62.238,
-      25.752
-    ],
+    "coordinates": [62.238, 25.752],
     "links": {
       "Website": "https://vkoskiv.com",
       "GitHub": "https://github.com/vkoskiv",
@@ -260,20 +191,14 @@
   },
   {
     "nick": "itamar8910",
-    "coordinates": [
-      32.785,
-      34.986
-    ],
+    "coordinates": [32.785, 34.986],
     "links": {
       "GitHub": "https://github.com/itamar8910"
     }
   },
   {
     "nick": "BertalanD",
-    "coordinates": [
-      47.093,
-      17.912
-    ],
+    "coordinates": [47.093, 17.912],
     "links": {
       "Website": "https://danielbertalan.dev",
       "GitHub": "https://github.com/BertalanD"
@@ -281,20 +206,14 @@
   },
   {
     "nick": "sunverwerth",
-    "coordinates": [
-      52.516,
-      13.377
-    ],
+    "coordinates": [52.516, 13.377],
     "links": {
       "GitHub": "https://github.com/sunverwerth"
     }
   },
   {
     "nick": "nooga",
-    "coordinates": [
-      52.400,
-      16.831
-    ],
+    "coordinates": [52.4, 16.831],
     "links": {
       "GitHub": "https://github.com/nooga",
       "Twitter": "https://twitter.com/MGasperowicz"
@@ -302,10 +221,7 @@
   },
   {
     "nick": "Reidond",
-    "coordinates": [
-      48.105630,
-      23.764078
-    ],
+    "coordinates": [48.10563, 23.764078],
     "links": {
       "GitHub": "https://github.com/Reidond",
       "Twitter": "https://twitter.com/Reidond69"
@@ -313,29 +229,21 @@
   },
   {
     "nick": "metmo",
-    "coordinates": [
-      59.317472,
-      18.037520
-    ],
+    "coordinates": [59.317472, 18.03752],
     "links": {
       "GitHub": "https://github.com/metmo"
     }
   },
   {
     "nick": "gootik",
-    "coordinates": [
-      37.758317, 
-      -122.451371
-    ],
+    "coordinates": [37.758317, -122.451371],
     "links": {
       "GitHub": "https://github.com/gootik"
     }
   },
   {
     "nick": "Clements",
-    "coordinates": [
-      44.83806, -0.57781
-    ],
+    "coordinates": [44.83806, -0.57781],
     "links": {
       "Website": "https://lisible.xyz",
       "GitHub": "https://github.com/Lisible",
@@ -344,9 +252,7 @@
   },
   {
     "nick": "Zyper",
-    "coordinates": [
-      50.06772, 19.99156
-    ],
+    "coordinates": [50.06772, 19.99156],
     "links": {
       "GitHub": "https://github.com/ZyperPL",
       "Twitter": "https://twitter.com/zyper_pl"
@@ -354,9 +260,7 @@
   },
   {
     "nick": "alvanrahimli",
-    "coordinates": [
-      40.33361, 49.74521
-    ],
+    "coordinates": [40.33361, 49.74521],
     "links": {
       "Website": "https://rahim.li",
       "GitHub": "https://github.com/alvanrahimli",
@@ -365,10 +269,7 @@
   },
   {
     "nick": "tbhaxor",
-    "coordinates": [
-      30.733315,
-      76.779419
-    ],
+    "coordinates": [30.733315, 76.779419],
     "links": {
       "GitHub": "https://github.com/tbhaxor",
       "Twitter": "https://twitter.com/tbhaxor",
@@ -377,9 +278,7 @@
   },
   {
     "nick": "Omerktn",
-    "coordinates": [
-      41.034220, 30.305053
-    ],
+    "coordinates": [41.03422, 30.305053],
     "links": {
       "GitHub": "https://github.com/Omerktn",
       "Twitter": "https://twitter.com/okurttekin"
@@ -387,10 +286,7 @@
   },
   {
     "nick": "ADKaster",
-    "coordinates": [
-      39.762,
-      -104.995
-    ],
+    "coordinates": [39.762, -104.995],
     "links": {
       "GitHub": "https://github.com/ADKaster"
     }
