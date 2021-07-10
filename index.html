@@ -42,6 +42,10 @@
         font-weight: bold;
         margin: 0.5rem;
       }
+
+      .leaflet-marker-icon:not(.contributor) {
+        filter: grayscale(1) brightness(1.2);
+      }
     </style>
   </head>
 
@@ -88,7 +92,10 @@
                 first = false;
               }
             }
-            L.marker(user.coordinates).addTo(map).bindPopup(html);
+
+            const icon = new L.Icon.Default();
+            icon.options.className = user.contributor ? "contributor" : "";
+            L.marker(user.coordinates, { icon }).addTo(map).bindPopup(html);
           }
 
           document.getElementById("user-count").innerText = String(data.length);
