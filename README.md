@@ -19,6 +19,8 @@ If you want to add yourself to the map, make a PR that adds an entry to the file
 }
 ```
 
+If you're a [contributor](https://github.com/SerenityOS/serenity/graphs/contributors), add `"contributor": true` at the end of the entry as well to get highlighted on the map.
+
 Some tips:
 
 - You can find your location with either [OpenStreet Maps](https://www.openstreetmap.org/), [Google Maps](https://www.google.com/maps) or your mobile phone if GPS is enabled
