@@ -11,3 +11,6 @@ jobs:
       - name: Ensure people.json is valid JSON
         run: |
           python3 -m json.tool people.json
+      - name: Run prettier
+        run: |
+          npx prettier --check .
