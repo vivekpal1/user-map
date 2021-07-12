@@ -363,5 +363,14 @@
       "Twitter": "https://twitter.com/b1tw1tch",
       "Website": "https://shawdaddy.com"
     }
+  },
+  {
+    "nick": "docherak",
+    "coordinates": [50.10340, 14.45050],
+    "links": {
+      "Website": "https://docherak.github.io",
+      "GitHub": "https://github.com/docherak",
+      "Twitter": "https://twitter.com/docherak"
+    }
   }
 ]
