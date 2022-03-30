@@ -720,5 +720,13 @@
       "GitHub": "https://github.com/emanuele6"
     },
     "contributor": true
+  },
+  {
+    "nick": "Ali Chraghi - alic",
+    "coordinates": [37.5517, 45.0675],
+    "links": {
+      "GitHub": "https://github.com/alichraghi"
+    },
+    "contributor": true
   }
 ]
