@@ -798,5 +798,13 @@
       "GitHub": "https://github.com/MacDue"
     },
     "contributor": true
+  },
+  {
+  "nick": "vivek",
+  "coordinates": [28.5438, 77.2022],
+  "links": {
+    "Website": "https://vivekpal.in",
+    "GitHub": "https://github.com/vivekpal1"
   }
+}
 ]
